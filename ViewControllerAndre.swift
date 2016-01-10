@@ -10,10 +10,13 @@ import UIKit
 
 class ViewControllerAndre: UIViewController {
 
+    @IBOutlet weak var labelTeste: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        labelTeste.text = "Label mudada."
     }
 
     override func didReceiveMemoryWarning() {
