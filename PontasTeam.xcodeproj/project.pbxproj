@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		65D588421C41ECBA0063DD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D588411C41ECBA0063DD59 /* main.m */; };
 		65D588451C41ECBA0063DD59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D588441C41ECBA0063DD59 /* AppDelegate.m */; };
-		65D588481C41ECBA0063DD59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D588471C41ECBA0063DD59 /* ViewController.m */; };
 		65D5884B1C41ECBA0063DD59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D588491C41ECBA0063DD59 /* Main.storyboard */; };
 		65D5884D1C41ECBA0063DD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D5884C1C41ECBA0063DD59 /* Assets.xcassets */; };
 		65D588501C41ECBA0063DD59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D5884E1C41ECBA0063DD59 /* LaunchScreen.storyboard */; };
+		65D5885F1C41ED630063DD59 /* ViewControllerAndre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5885E1C41ED630063DD59 /* ViewControllerAndre.swift */; };
+		65D588621C41EDE60063DD59 /* ViewControllerBruno.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D588611C41EDE60063DD59 /* ViewControllerBruno.m */; };
+		65D588651C41EE0D0063DD59 /* ViewControllerRafael.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D588641C41EE0D0063DD59 /* ViewControllerRafael.m */; };
+		65D588691C41EFD60063DD59 /* ViewControllerRamiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D588681C41EFD60063DD59 /* ViewControllerRamiro.m */; };
+		65D5886C1C41F0200063DD59 /* ViewControllerRafaelAmorim.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D5886B1C41F0200063DD59 /* ViewControllerRafaelAmorim.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		65D588411C41ECBA0063DD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65D588431C41ECBA0063DD59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65D588441C41ECBA0063DD59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65D588461C41ECBA0063DD59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65D588471C41ECBA0063DD59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		65D5884A1C41ECBA0063DD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D5884C1C41ECBA0063DD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D5884F1C41ECBA0063DD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D588511C41ECBA0063DD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D5885D1C41ED620063DD59 /* PontasTeam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PontasTeam-Bridging-Header.h"; sourceTree = "<group>"; };
+		65D5885E1C41ED630063DD59 /* ViewControllerAndre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAndre.swift; sourceTree = "<group>"; };
+		65D588601C41EDE60063DD59 /* ViewControllerBruno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerBruno.h; sourceTree = "<group>"; };
+		65D588611C41EDE60063DD59 /* ViewControllerBruno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerBruno.m; sourceTree = "<group>"; };
+		65D588631C41EE0D0063DD59 /* ViewControllerRafael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerRafael.h; sourceTree = "<group>"; };
+		65D588641C41EE0D0063DD59 /* ViewControllerRafael.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerRafael.m; sourceTree = "<group>"; };
+		65D588671C41EFD60063DD59 /* ViewControllerRamiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerRamiro.h; sourceTree = "<group>"; };
+		65D588681C41EFD60063DD59 /* ViewControllerRamiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerRamiro.m; sourceTree = "<group>"; };
+		65D5886A1C41F0200063DD59 /* ViewControllerRafaelAmorim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerRafaelAmorim.h; sourceTree = "<group>"; };
+		65D5886B1C41F0200063DD59 /* ViewControllerRafaelAmorim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerRafaelAmorim.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +54,9 @@
 		65D588341C41ECBA0063DD59 = {
 			isa = PBXGroup;
 			children = (
+				65D588661C41EE2C0063DD59 /* Image */,
 				65D5883F1C41ECBA0063DD59 /* PontasTeam */,
+				65D588571C41ECD00063DD59 /* Controller */,
 				65D5883E1C41ECBA0063DD59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,8 +74,6 @@
 			children = (
 				65D588431C41ECBA0063DD59 /* AppDelegate.h */,
 				65D588441C41ECBA0063DD59 /* AppDelegate.m */,
-				65D588461C41ECBA0063DD59 /* ViewController.h */,
-				65D588471C41ECBA0063DD59 /* ViewController.m */,
 				65D588491C41ECBA0063DD59 /* Main.storyboard */,
 				65D5884C1C41ECBA0063DD59 /* Assets.xcassets */,
 				65D5884E1C41ECBA0063DD59 /* LaunchScreen.storyboard */,
@@ -77,6 +89,70 @@
 				65D588411C41ECBA0063DD59 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65D588571C41ECD00063DD59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65D5885C1C41ECFD0063DD59 /* Ramiro Amorim */,
+				65D5885B1C41ECF30063DD59 /* Rafael Amorim */,
+				65D5885A1C41ECED0063DD59 /* Bruno */,
+				65D588591C41ECE20063DD59 /* Rafael */,
+				65D588581C41ECDA0063DD59 /* Andre */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		65D588581C41ECDA0063DD59 /* Andre */ = {
+			isa = PBXGroup;
+			children = (
+				65D5885E1C41ED630063DD59 /* ViewControllerAndre.swift */,
+				65D5885D1C41ED620063DD59 /* PontasTeam-Bridging-Header.h */,
+			);
+			name = Andre;
+			sourceTree = "<group>";
+		};
+		65D588591C41ECE20063DD59 /* Rafael */ = {
+			isa = PBXGroup;
+			children = (
+				65D588631C41EE0D0063DD59 /* ViewControllerRafael.h */,
+				65D588641C41EE0D0063DD59 /* ViewControllerRafael.m */,
+			);
+			name = Rafael;
+			sourceTree = "<group>";
+		};
+		65D5885A1C41ECED0063DD59 /* Bruno */ = {
+			isa = PBXGroup;
+			children = (
+				65D588601C41EDE60063DD59 /* ViewControllerBruno.h */,
+				65D588611C41EDE60063DD59 /* ViewControllerBruno.m */,
+			);
+			name = Bruno;
+			sourceTree = "<group>";
+		};
+		65D5885B1C41ECF30063DD59 /* Rafael Amorim */ = {
+			isa = PBXGroup;
+			children = (
+				65D5886A1C41F0200063DD59 /* ViewControllerRafaelAmorim.h */,
+				65D5886B1C41F0200063DD59 /* ViewControllerRafaelAmorim.m */,
+			);
+			name = "Rafael Amorim";
+			sourceTree = "<group>";
+		};
+		65D5885C1C41ECFD0063DD59 /* Ramiro Amorim */ = {
+			isa = PBXGroup;
+			children = (
+				65D588671C41EFD60063DD59 /* ViewControllerRamiro.h */,
+				65D588681C41EFD60063DD59 /* ViewControllerRamiro.m */,
+			);
+			name = "Ramiro Amorim";
+			sourceTree = "<group>";
+		};
+		65D588661C41EE2C0063DD59 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D588481C41ECBA0063DD59 /* ViewController.m in Sources */,
 				65D588451C41ECBA0063DD59 /* AppDelegate.m in Sources */,
+				65D5886C1C41F0200063DD59 /* ViewControllerRafaelAmorim.m in Sources */,
+				65D588621C41EDE60063DD59 /* ViewControllerBruno.m in Sources */,
 				65D588421C41ECBA0063DD59 /* main.m in Sources */,
+				65D5885F1C41ED630063DD59 /* ViewControllerAndre.swift in Sources */,
+				65D588691C41EFD60063DD59 /* ViewControllerRamiro.m in Sources */,
+				65D588651C41EE0D0063DD59 /* ViewControllerRafael.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +342,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PontasTeam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.pontas.PontasTeam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PontasTeam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -273,10 +357,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PontasTeam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.pontas.PontasTeam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PontasTeam-Bridging-Header.h";
 			};
 			name = Release;
 		};

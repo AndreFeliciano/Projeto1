@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControllerRamiro.h
 //  PontasTeam
 //
 //  Created by André Feliciano on 09/01/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewControllerRamiro : UIViewController
 
 @end
-
