@@ -16,6 +16,8 @@ class ViewControllerAndre: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        labelTeste.textAlignment = NSTextAlignment.Center
+        labelTeste.textColor = UIColor.blueColor()
         labelTeste.text = "Label mudada."
     }
 
