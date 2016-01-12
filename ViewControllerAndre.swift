@@ -10,15 +10,13 @@ import UIKit
 
 class ViewControllerAndre: UIViewController {
 
-    @IBOutlet weak var labelTeste: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        labelTeste.textAlignment = NSTextAlignment.Center
-        labelTeste.textColor = UIColor.blueColor()
-        labelTeste.text = "Label mudada."
+        
+        self.style()
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +25,15 @@ class ViewControllerAndre: UIViewController {
     }
     
 
+    func style() {
+        let color: UIColor = UIColor(red: 24.0 / 255, green: 75.0 / 255, blue: 152.0 / 255, alpha: 1)
+        self.navigationController!.navigationBar.translucent = false
+        self.navigationController!.navigationBar.tintColor = UIColor.whiteColor()
+        self.navigationController!.navigationBar.barTintColor = color
+        self.navigationController!.navigationBar.barStyle = UIBarStyle.BlackTranslucent
+    }
+    
+    
     /*
     // MARK: - Navigation
 

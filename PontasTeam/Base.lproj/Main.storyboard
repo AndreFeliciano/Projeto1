@@ -5,36 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--André-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewControllerAndre" customModule="PontasTeam" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="André" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbI-jk-HzP">
-                                <rect key="frame" x="20" y="229" width="280" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="André" image="smartphone 2.png" id="SJP-vy-Xmb"/>
-                    <connections>
-                        <outlet property="labelTeste" destination="gbI-jk-HzP" id="duJ-2H-YaL"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="510" y="-93"/>
-        </scene>
         <!--Rafael-->
         <scene sceneID="ZqT-gV-fV1">
             <objects>
@@ -61,7 +31,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeV-x7-6Zu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="303"/>
+            <point key="canvasLocation" x="864" y="968"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="r2x-hg-8Wg">
@@ -74,7 +44,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="M4d-2l-BqG"/>
+                        <segue destination="oVg-WO-soz" kind="relationship" relationship="viewControllers" id="mEa-my-lem"/>
                         <segue destination="IxU-Mh-kvd" kind="relationship" relationship="viewControllers" id="CsN-s3-6SU"/>
                         <segue destination="FFD-Q9-Hez" kind="relationship" relationship="viewControllers" id="JlW-7R-3fJ"/>
                         <segue destination="Ppl-kG-smy" kind="relationship" relationship="viewControllers" id="cKL-iF-AhF"/>
@@ -83,7 +53,26 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ESj-ef-HCc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29" y="303"/>
+            <point key="canvasLocation" x="510" y="131"/>
+        </scene>
+        <!--Teste-->
+        <scene sceneID="6Wz-4r-wzb">
+            <objects>
+                <viewController id="LmR-Y2-eXn" customClass="ViewControllerAndre" customModule="PontasTeam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h7C-UW-Yq9"/>
+                        <viewControllerLayoutGuide type="bottom" id="PyY-eM-mqP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AtU-DJ-dBU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Teste" id="g6S-Eq-1i6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVb-aC-4yT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842" y="968"/>
         </scene>
         <!--Rafael A-->
         <scene sceneID="RcD-c9-yqL">
@@ -181,10 +170,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgw-mJ-jZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="510" y="645"/>
+            <point key="canvasLocation" x="510" y="968"/>
+        </scene>
+        <!--André-->
+        <scene sceneID="I7r-HH-4QJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oVg-WO-soz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="André" id="s4Q-7g-kzO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tBe-HL-eJe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LmR-Y2-eXn" kind="relationship" relationship="rootViewController" id="rKT-uE-fOG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23q-rj-KzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1310" y="968"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="smartphone 2.png" width="24" height="24"/>
-    </resources>
 </document>
